@@ -16,21 +16,21 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { HomeComponent } from './home/home.component'
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    ProductComponent,
-    CheckoutComponent,
-    HomeComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule,
-    AppRoutingModule,
-    InfiniteScrollModule
-  ],
-  providers: [DataService],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        HeaderComponent,
+        ProductComponent,
+        CheckoutComponent,
+        HomeComponent
+    ],
+    imports: [
+        BrowserModule,
+        FormsModule,
+        HttpModule,
+        AppRoutingModule,
+        InfiniteScrollModule
+    ],
+    providers: [DataService],
+    bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

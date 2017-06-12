@@ -6,10 +6,10 @@ export class DataService {
     cartCount = 0;
     cartItemAdded = new Subject < number > ();
 
-    cartProducts:any[] = [];
-    cartProductAdded = new Subject < {} >();
+    cartProducts: any[] = [];
+    cartProductAdded = new Subject < {} > ();
 
-    products : any[] = [];
+    products: any[] = [];
 
     constructor() {
 
@@ -18,44 +18,43 @@ export class DataService {
         this.cartCount = this.getCartCount();
     }
 
-    setProducts(products){
+    setProducts(products) {
         this.products = products;
     }
 
-    getProducts(){
+    getProducts() {
         return this.products;
 
     }
 
-    setCartCount(){
+    setCartCount() {
         this.cartCount = this.cartProducts.length;
         this.cartItemAdded.next(this.cartCount);
     }
 
-    getCartCount(){
+    getCartCount() {
         return this.cartCount;
     }
 
 
-    setCartProducts(cartProducts){
+    setCartProducts(cartProducts) {
         this.cartProducts = cartProducts;
         this.cartProductAdded.next(this.cartProducts);
     }
 
-    getcartProducts(){
+    getcartProducts() {
         return this.cartProducts;
     }
 
-    enableCartButtonInProducts(currentId){
-    
-    var index;
-            for(index=0;index<this.products.length;index++){
-            if(this.products[index].id===currentId){
-                this.products[index].isSelected = false;               
+    enableCartButtonInProducts(currentId) {
+        var index;
+        for (index = 0; index < this.products.length; index++) {
+            if (this.products[index].id === currentId) {
+                this.products[index].isSelected = false;
             }
         }
     }
-   
+
 
 
 }

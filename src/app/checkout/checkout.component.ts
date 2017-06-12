@@ -50,13 +50,12 @@ export class CheckoutComponent implements OnInit {
     }
 
     calculateTotal() {
-        this.total=0;
+        this.total = 0;
         var index, cartProducts = this.dataService.getcartProducts();
         for (index = 0; index < cartProducts.length; index++) {
             this.total = this.total + (Number(cartProducts[index].price));
         }
     }
-
 
     onEditCart() {
         this.router.navigate(['/product']);

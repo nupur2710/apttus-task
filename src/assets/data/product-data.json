@@ -1,166 +1,147 @@
 {
-  "products": [
-    {
-      "id": 1,
-      "name": "mobile",
-      "price": 12000,
-      "description":"this is the description of a mobile",
-      "image":"https://cf-catman.infibeam.net/img/m1/lenovok4notefront.jpg.993ea97715.999x450x573.jpg.999xx.jpg",
-      "isSelected":false,
-      "count":1
-    },
-    {
-      "id": 2,
-      "name": "wallet",
-      "price": 1200,
-      "description":"this is the description of a mobile",
-      "image":"https://cdn.shopify.com/s/files/1/0145/1752/products/Both-05.jpg?v=1416154722",
-      "isSelected":false,
-      "count":1
-    },
-    {
-      "id": 3,
-      "name": "hand purse",
-      "price": 2300,
-      "description":"this is the description of a mobile",
-       "image":"https://s-media-cache-ak0.pinimg.com/736x/cd/14/2f/cd142f1372d9fa3976d2a5066937146a.jpg",
-      "isSelected":false,
-      "count":1
-    },
-    {
-      "id": 4,
-      "name": "jewellery",
-      "price": 12000,
-      "description":"this is the description of a mobile",
-       "image":"http://www.azvavows.com/images/fine-crafts.jpg",
-      "isSelected":false,
-      "count":1
-    },
-    {
-      "id": 5,
-      "name": "bags",
-      "price": 1200,
-      "description":"this is the description of a mobile",
-       "image":"http://target.scene7.com/is/image/Target/52044845?wid=360&hei=360&qlt=80&fmt=pjpeg",
-      "isSelected":false,
-      "count":1
-    },
-    {
-      "id": 6,
-      "name": "clothes",
-      "price": 1500,
-      "description":"this is the description of a mobile",
-       "image":"https://assets.myntassets.com/h_240,q_90,w_180/v1/assets/images/1471887/2016/8/31/11472643031519-109F-Women-Black-Solid-A-line-Dress-9731472643031211-1_mini.jpg",
-      "isSelected":false,
-      "count":1
-    },
-    {
-      "id": 7,
-      "name": "casual shoes",
-      "price": 1900,
-      "description":"this is the description of a mobile",
-       "image":"https://images-eu.ssl-images-amazon.com/images/G/31/img15/Shoes/CatNav/h._V293117558_.jpg",
-      "isSelected":false,
-      "count":1
-    },
-    {
-      "id": 8,
-      "name": "socks",
-      "price": 50,
-      "description":"this is the description of a mobile",
-       "image":"http://www.productswithstyle.com/images/Adult-Daffodil-medium.jpg",
-      "isSelected":false,
-      "count":1
-    },
-    {
-      "id": 9,
-      "name": "rings",
-      "price": 1004,
-      "description":"this is the description of a mobile",
-       "image":"https://bnsec.bluenile.com/bluenile/is/image/bluenile/42029_HERO_0114_EVRGN_v2?$v2_4mainmod_lrg$&rgn=2300,2300,2500,0",
-      "isSelected":false,
-      "count":1
-    },
-     {
-      "id": 11,
-      "name": "mobile",
-      "price": 12000,
-      "description":"this is the description of a mobile",
-       "image":"http://drop.ndtv.com/TECH/product_database/images/513201564925PM_635_general_mobile_4g.jpeg",
-      "isSelected":false,
-      "count":1
-    },
-    {
-      "id": 12,
-      "name": "wallet",
-      "price": 1200,
-      "description":"this is the description of a mobile",
-       "image":"http://wdy.h-cdn.co/assets/cm/15/10/54f5fb6cbdbb5_-_1-red-wallet-open-lgn.jpg",
-      "isSelected":false,
-      "count":1
-    },
-    {
-      "id": 13,
-      "name": "purse",
-      "price": 1004,
-      "description":"this is the description of a mobile",
-       "image":"https://s-media-cache-ak0.pinimg.com/736x/40/60/5c/40605cdc3e2f0e16f015aad749c2a1a5.jpg",
-      "isSelected":false,
-      "count":1
-    },
-    {
-      "id": 14,
-      "name": "jewellery",
-      "price": 12000,
-      "description":"this is the description of a mobile",
-       "image":"http://ecx.images-amazon.com/images/I/516HY139s+L._AC_UL260_SR200,260_.jpg",
-      "isSelected":false,
-      "count":1
-    },
-    {
-      "id": 15,
-      "name": "backpack",
-      "price": 1200,
-      "description":"this is the description of a mobile",
-       "image":"http://images.shape.mdpcdn.com/sites/shape.com/files/styles/slide/public/north-face-w-microbyte.jpg",
-      "isSelected":false,
-      "count":1
-    },
-    {
-      "id": 16,
-      "name": "dress",
-      "price": 1900,
-      "description":"this is the description of a mobile",
-       "image":"http://2.wlimg.com/product_images/bc-full/dir_102/3056569/watermark/image-05_p_1635928_386623.jpg",
-      "isSelected":false,
-      "count":1
-    },
-    {
-      "id": 17,
-      "name": "shoes",
-      "price": 12000,
-      "description":"this is the description of a mobile",
-       "image":"https://m.media-amazon.com/images/G/01/6pm/landing/2017/shoes/April/Wedges._V530666625_.jpg",
-      "isSelected":false,
-      "count":1
-    },
-    {
-      "id": 18,
-      "name": "socks",
-      "price": 100,
-      "description":"this is the description of a mobile",
-       "image":"https://www.sketchapp.com/images/store/socks/sketch-socks.png",
-      "isSelected":false,
-      "count":1
-    },
-    {
-      "id": 19,
-      "name": "rings",
-      "price": 1004,
-      "description":"this is the description of a mobile",
-       "image":"http://images.qvc.com/is/image/pic/jw/sq1_spot3_jw_20160812.jpg?qlt=95,1",
-      "isSelected":false,
-      "count":1
-    }
-  ]
+    "products": [{
+        "id": 1,
+        "name": "mobile",
+        "price": 12000,
+        "description": "this is the description of a mobile",
+        "image": "https://cf-catman.infibeam.net/img/m1/lenovok4notefront.jpg.993ea97715.999x450x573.jpg.999xx.jpg",
+        "isSelected": false,
+        "count": 1
+    }, {
+        "id": 2,
+        "name": "wallet",
+        "price": 1200,
+        "description": "this is the description of a mobile",
+        "image": "https://cdn.shopify.com/s/files/1/0145/1752/products/Both-05.jpg?v=1416154722",
+        "isSelected": false,
+        "count": 1
+    }, {
+        "id": 3,
+        "name": "hand purse",
+        "price": 2300,
+        "description": "this is the description of a mobile",
+        "image": "https://s-media-cache-ak0.pinimg.com/736x/cd/14/2f/cd142f1372d9fa3976d2a5066937146a.jpg",
+        "isSelected": false,
+        "count": 1
+    }, {
+        "id": 4,
+        "name": "jewellery",
+        "price": 12000,
+        "description": "this is the description of a mobile",
+        "image": "http://www.azvavows.com/images/fine-crafts.jpg",
+        "isSelected": false,
+        "count": 1
+    }, {
+        "id": 5,
+        "name": "bags",
+        "price": 1200,
+        "description": "this is the description of a mobile",
+        "image": "http://target.scene7.com/is/image/Target/52044845?wid=360&hei=360&qlt=80&fmt=pjpeg",
+        "isSelected": false,
+        "count": 1
+    }, {
+        "id": 6,
+        "name": "clothes",
+        "price": 1500,
+        "description": "this is the description of a mobile",
+        "image": "https://assets.myntassets.com/h_240,q_90,w_180/v1/assets/images/1471887/2016/8/31/11472643031519-109F-Women-Black-Solid-A-line-Dress-9731472643031211-1_mini.jpg",
+        "isSelected": false,
+        "count": 1
+    }, {
+        "id": 7,
+        "name": "casual shoes",
+        "price": 1900,
+        "description": "this is the description of a mobile",
+        "image": "https://images-eu.ssl-images-amazon.com/images/G/31/img15/Shoes/CatNav/h._V293117558_.jpg",
+        "isSelected": false,
+        "count": 1
+    }, {
+        "id": 8,
+        "name": "socks",
+        "price": 50,
+        "description": "this is the description of a mobile",
+        "image": "http://www.productswithstyle.com/images/Adult-Daffodil-medium.jpg",
+        "isSelected": false,
+        "count": 1
+    }, {
+        "id": 9,
+        "name": "rings",
+        "price": 1004,
+        "description": "this is the description of a mobile",
+        "image": "https://bnsec.bluenile.com/bluenile/is/image/bluenile/42029_HERO_0114_EVRGN_v2?$v2_4mainmod_lrg$&rgn=2300,2300,2500,0",
+        "isSelected": false,
+        "count": 1
+    }, {
+        "id": 11,
+        "name": "mobile",
+        "price": 12000,
+        "description": "this is the description of a mobile",
+        "image": "http://drop.ndtv.com/TECH/product_database/images/513201564925PM_635_general_mobile_4g.jpeg",
+        "isSelected": false,
+        "count": 1
+    }, {
+        "id": 12,
+        "name": "wallet",
+        "price": 1200,
+        "description": "this is the description of a mobile",
+        "image": "http://wdy.h-cdn.co/assets/cm/15/10/54f5fb6cbdbb5_-_1-red-wallet-open-lgn.jpg",
+        "isSelected": false,
+        "count": 1
+    }, {
+        "id": 13,
+        "name": "purse",
+        "price": 1004,
+        "description": "this is the description of a mobile",
+        "image": "https://s-media-cache-ak0.pinimg.com/736x/40/60/5c/40605cdc3e2f0e16f015aad749c2a1a5.jpg",
+        "isSelected": false,
+        "count": 1
+    }, {
+        "id": 14,
+        "name": "jewellery",
+        "price": 12000,
+        "description": "this is the description of a mobile",
+        "image": "http://ecx.images-amazon.com/images/I/516HY139s+L._AC_UL260_SR200,260_.jpg",
+        "isSelected": false,
+        "count": 1
+    }, {
+        "id": 15,
+        "name": "backpack",
+        "price": 1200,
+        "description": "this is the description of a mobile",
+        "image": "http://images.shape.mdpcdn.com/sites/shape.com/files/styles/slide/public/north-face-w-microbyte.jpg",
+        "isSelected": false,
+        "count": 1
+    }, {
+        "id": 16,
+        "name": "dress",
+        "price": 1900,
+        "description": "this is the description of a mobile",
+        "image": "http://2.wlimg.com/product_images/bc-full/dir_102/3056569/watermark/image-05_p_1635928_386623.jpg",
+        "isSelected": false,
+        "count": 1
+    }, {
+        "id": 17,
+        "name": "shoes",
+        "price": 12000,
+        "description": "this is the description of a mobile",
+        "image": "https://m.media-amazon.com/images/G/01/6pm/landing/2017/shoes/April/Wedges._V530666625_.jpg",
+        "isSelected": false,
+        "count": 1
+    }, {
+        "id": 18,
+        "name": "socks",
+        "price": 100,
+        "description": "this is the description of a mobile",
+        "image": "https://www.sketchapp.com/images/store/socks/sketch-socks.png",
+        "isSelected": false,
+        "count": 1
+    }, {
+        "id": 19,
+        "name": "rings",
+        "price": 1004,
+        "description": "this is the description of a mobile",
+        "image": "http://images.qvc.com/is/image/pic/jw/sq1_spot3_jw_20160812.jpg?qlt=95,1",
+        "isSelected": false,
+        "count": 1
+    }]
 }

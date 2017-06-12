@@ -1,28 +1,17 @@
 <div class="container">
-	<div class="row">
-		<div class="col-xs-12" *ngFor="let product of partialProducts" 
-		infiniteScroll
-		    [infiniteScrollDistance]="2"
-		    [infiniteScrollThrottle]="300"
-		    (scrolled)="onScroll()">
-		    <hr>
-
-			<div class="col-xs-5">
-			<p>Id: {{product.id}}</p>
-			<p>Product: {{product.name}}</p>
-			<p>Price: {{product.price}}</p>
-			<p>Description: {{product.description}}</p>
-			<button class="btn btn-success" (click)="onAddToCart($event)" data-id={{product.id}} [disabled]="product.isSelected">Add to cart</button>
-			</div>
-			<div class="col-xs-5" >
-				<img [src]="product.image" [alt]="product.name" style="height:150px; width:150px;">
-			</div>
-			
-		</div>
-		
-
-	</div>
+    <div class="row">
+        <div class="col-xs-12" *ngFor="let product of partialProducts" infiniteScroll [infiniteScrollDistance]="2" [infiniteScrollThrottle]="300" (scrolled)="onScroll()">
+            <hr>
+            <div class="col-xs-5">
+                <p>Id: {{product.id}}</p>
+                <p>Product: {{product.name}}</p>
+                <p>Price: {{product.price}}</p>
+                <p>Description: {{product.description}}</p>
+                <button class="btn btn-success" (click)="onAddToCart($event)" data-id={{product.id}} [disabled]="product.isSelected">Add to cart</button>
+            </div>
+            <div class="col-xs-5">
+                <img [src]="product.image" [alt]="product.name" style="height:150px; width:150px;">
+            </div>
+        </div>
+    </div>
 </div>
-
-
-
