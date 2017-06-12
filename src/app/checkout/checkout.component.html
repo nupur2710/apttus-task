@@ -4,8 +4,11 @@
             <div class="col-xs-5">
                 <p>Id: {{product.id}}</p>
                 <p>Product: {{product.name}}</p>
-                <p>Price: {{product.price}}</p>
                 <p>Description: {{product.description}}</p>
+                <p>Quantity
+                    <input type="number" [value]="product.count" #productCount [ngModel]="product.count" (ngModelChange)="valuechange($event, product)">
+                </p>
+                <p>Price: Rs. {{product.price * product.count}}</p>
                 <button class="btn btn-danger" (click)="onRemoveFromCart($event)" data-id={{product.id}}>Remove from cart</button>
             </div>
             <div class="col-xs-5">

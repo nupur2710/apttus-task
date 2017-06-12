@@ -33,6 +33,20 @@ export class CheckoutComponent implements OnInit {
         this.subscription.unsubscribe();
     }
 
+    valuechange(newValue, product) {
+        var currentId = product.id,
+            index;
+        this.cartProducts = this.dataService.getcartProducts();
+        for (index = 0; index < this.cartProducts.length; index++) {
+            if (this.cartProducts[index].id === currentId) {
+                this.cartProducts[index].count = Number(newValue);
+            }
+        }
+        this.dataService.setCartProducts(this.cartProducts);
+        this.calculateTotal();
+
+    }
+
     onRemoveFromCart($event) {
         var currentId = Number($event.toElement.id);
         var index;
@@ -53,7 +67,7 @@ export class CheckoutComponent implements OnInit {
         this.total = 0;
         var index, cartProducts = this.dataService.getcartProducts();
         for (index = 0; index < cartProducts.length; index++) {
-            this.total = this.total + (Number(cartProducts[index].price));
+            this.total = this.total + (Number(cartProducts[index].price) * Number(cartProducts[index].count));
         }
     }
 
